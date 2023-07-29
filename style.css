@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /*border: solid blue;*/
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+
+.mainContainer{
+    display: flex;
+    /*border: solid red;*/
+   
+}
+
+.contentContainer{
+    display: flex;
+    width: 370px;
+    height: 560px; 
+}
+
+#mainImgContainer{
+   /*border: solid 3px yellow;*/
+}
+.mainImg{
+    border-radius: 15px 0 0 15px;
+    width: 100%;
+}
+
+#mainTextContainer{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /*border: solid 3px green;*/
+    border-radius: 0 15px 15px 0;
+    background-color: hsl(0, 0%, 100%);
+}
+.content{
+    display: flex;
+    gap: 36px;
+    flex-direction: column;
+    width: 270px;
+    height: 490px; 
+    
+} 
+
+.typeProductName{
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+
+.prductName{
+font-family: 'Fraunces';
+font-size: 40px;
+font-weight: 500;
+line-height: 97%;
+
+}
+
+.productDescription{
+    font-size: 16px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    line-height: 170%
+}
+
+.containerPrice{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.newPrice{
+ color: hsl(158, 36%, 37%);
+ font-family: 'Fraunces';
+ font-size: 40px;
+ font-weight: 700;
+}
+.oldPrice{
+    font-size: 16px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+}
+.cartContainer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+justify-content: center;
+gap: 10px;
+    background-color:hsl(158, 36%, 37%); 
+    border-radius: 10px;
+
+    height: 55px;
+}
+.cartImg{
+
+}
+.cartText{
+    font-family:'Montserrat' ;
+    font-size: 16px;
+    font-weight: 700;
+    color:  hsl(0, 0%, 100%);
+}
