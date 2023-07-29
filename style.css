@@ -24,8 +24,8 @@ body{
 
 .contentContainer{
     display: flex;
-    width: 370px;
-    height: 560px; 
+    width: 310px;
+    height: 500px; 
 }
 
 #mainImgContainer{
@@ -46,31 +46,32 @@ body{
 }
 .content{
     display: flex;
-    gap: 36px;
+    gap: 35px;
     flex-direction: column;
-    width: 270px;
-    height: 490px; 
+    width: 250px;
+    height: 450px; 
+    border: solid;
     
 } 
 
 .typeProductName{
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Montserrat';
     color: hsl(228, 12%, 48%);
     font-weight: 500;
-    letter-spacing: 7px;
+    letter-spacing: 5px;
 }
 
 .prductName{
 font-family: 'Fraunces';
-font-size: 40px;
+font-size: 35px;
 font-weight: 500;
 line-height: 97%;
 
 }
 
 .productDescription{
-    font-size: 16px;
+    font-size: 14px;
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat';
     line-height: 170%
