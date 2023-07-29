@@ -18,8 +18,6 @@ body{
 
 .mainContainer{
     display: flex;
-    /*border: solid red;*/
-   
 }
 
 .contentContainer{
@@ -29,7 +27,7 @@ body{
 }
 
 #mainImgContainer{
-   /*border: solid 3px yellow;*/
+  
 }
 .mainImg{
     border-radius: 15px 0 0 15px;
@@ -50,8 +48,6 @@ body{
     flex-direction: column;
     width: 250px;
     height: 450px; 
-    border: solid;
-    
 } 
 
 .typeProductName{
@@ -98,11 +94,10 @@ line-height: 97%;
     display: flex;
     align-items: center;
     align-content: center;
-justify-content: center;
-gap: 10px;
+    justify-content: center;
+    gap: 10px;
     background-color:hsl(158, 36%, 37%); 
     border-radius: 10px;
-
     height: 55px;
 }
 .cartImg{
@@ -112,5 +107,66 @@ gap: 10px;
     font-family:'Montserrat' ;
     font-size: 16px;
     font-weight: 700;
-    color:  hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+}
+
+@media screen  and (max-width: 500px) {
+    .mainContainer{
+        flex-direction: column;
+    }
+    #mainImgContainer{
+        height: 210px;
+    }
+
+    .mainImg{
+        border-radius: 8px 8px 0 0;
+    }
+    
+    #mainTextContainer{
+        border-radius: 0 0px 8px 8px;
+        height: 340px;
+    }
+
+    .content{
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        width: 270px;
+        height: 310px; 
+    } 
+
+    .typeProductName {
+        font-size: 12px;
+    }
+
+    .prductName {
+        font-size: 32px;
+    }
+        
+    .productDescription{
+        font-size: 12.8px;
+    }
+
+    .newPrice{
+        font-size: 32px;
+    }
+    .oldPrice{
+        font-size: 12px;
+    }
+    .cartContainer{
+        height: 42px;
+        border-radius: 7px;
+
+    }
+    .cartImg{
+       
+    }
+    .cartText{
+        font-size: 12px;
+        
+    }
+    .mobileImg{
+       object-position: 100% 100% ;
+
+    }
 }
